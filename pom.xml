@@ -31,10 +31,10 @@
 	<packaging>pom</packaging>
 
 	<name>Thiago Moreira Parent POM</name>
-	<url>http://www.thiagomoreira.com.br/projects/parent</url>
+	<url>https://www.thiagomoreira.com.br/projects/parent</url>
 	<inceptionYear>2014</inceptionYear>
 	<organization>
-		<url>http://www.thiagomoreira.com.br</url>
+		<url>https://www.thiagomoreira.com.br</url>
 		<name>Thiago Moreira</name>
 	</organization>
 	<licenses>
