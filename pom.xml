@@ -17,19 +17,26 @@
 
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
 		<artifactId>oss-parent</artifactId>
 		<version>7</version>
 	</parent>
-	<modelVersion>4.0.0</modelVersion>
+
 	<groupId>br.com.thiagomoreira</groupId>
 	<artifactId>parent</artifactId>
 	<version>0.4-SNAPSHOT</version>
-	<name>Thiago Moreira Parent POM</name>
 	<packaging>pom</packaging>
+
+	<name>Thiago Moreira Parent POM</name>
 	<url>http://www.thiagomoreira.com.br/projects/parent</url>
 	<inceptionYear>2014</inceptionYear>
+	<organization>
+		<url>http://www.thiagomoreira.com.br</url>
+		<name>Thiago Moreira</name>
+	</organization>
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
@@ -37,10 +44,7 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
-	<organization>
-		<url>http://www.thiagomoreira.com.br</url>
-		<name>Thiago Moreira</name>
-	</organization>
+
 	<developers>
 		<developer>
 			<name>Thiago Moreira</name>
@@ -53,12 +57,22 @@
 			<timezone>-3</timezone>
 		</developer>
 	</developers>
+
+	<prerequisites>
+		<maven>3.0.1</maven>
+	</prerequisites>
+
 	<scm>
 		<connection>scm:git:git@github.com:tmoreira2020/parent.git</connection>
 		<developerConnection>scm:git:git@github.com:tmoreira2020/parent.git</developerConnection>
 		<url>https://github.com/tmoreira2020/parent</url>
-	  <tag>HEAD</tag>
-  </scm>
+		<tag>HEAD</tag>
+	</scm>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -200,6 +214,7 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+
 	<reporting>
 		<plugins>
 			<plugin>
@@ -228,10 +243,5 @@
 			</plugin>
 		</plugins>
 	</reporting>
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-	<prerequisites>
-		<maven>3.0.1</maven>
-	</prerequisites>
+
 </project>
