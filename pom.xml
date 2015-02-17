@@ -27,7 +27,7 @@
 
 	<groupId>br.com.thiagomoreira</groupId>
 	<artifactId>parent</artifactId>
-	<version>0.5</version>
+	<version>0.6-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Thiago Moreira Parent POM</name>
@@ -66,7 +66,7 @@
 		<connection>scm:git:git@github.com:tmoreira2020/parent.git</connection>
 		<developerConnection>scm:git:git@github.com:tmoreira2020/parent.git</developerConnection>
 		<url>https://github.com/tmoreira2020/parent</url>
-		<tag>parent-0.5</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<properties>
