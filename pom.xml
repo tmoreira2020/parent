@@ -73,6 +73,33 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>liferay-public</id>
+			<name>Liferay Public</name>
+			<url>https://repository.liferay.com/nexus/content/groups/public</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>liferay-public</id>
+			<name>Liferay Public</name>
+			<url>https://repository.liferay.com/nexus/content/groups/public</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+
 	<build>
 		<pluginManagement>
 			<plugins>
