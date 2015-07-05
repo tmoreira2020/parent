@@ -274,7 +274,7 @@
 						<source>${source.version}</source>
 						<target>${target.version}</target>
 						<Xlint>ignore</Xlint>
-						<complianceLevel>${compiler.version}</complianceLevel>
+						<complianceLevel>${target.version}</complianceLevel>
 						<encoding>${project.build.sourceEncoding}</encoding>
 						<verbose>false</verbose>
 					</configuration>
