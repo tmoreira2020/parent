@@ -175,6 +175,12 @@
 					<groupId>net.revelc.code</groupId>
 					<artifactId>formatter-maven-plugin</artifactId>
 					<version>0.5.2</version>
+					<configuration>
+						<compilerSource>${source.version}</compilerSource>
+						<compilerTargetPlatform>${target.version}</compilerTargetPlatform>
+						<compilerCompliance>${target.version}</compilerCompliance>
+						<encoding>${project.build.sourceEncoding}</encoding>
+					</configuration>
 					<executions>
 						<execution>
 							<goals>
