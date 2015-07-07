@@ -72,6 +72,10 @@
 		<system>Github</system>
 		<url>https://github.com/tmoreira2020/${project.artifactId}/issues</url>
 	</issueManagement>
+	<ciManagement>
+		<system>Travis</system>
+		<url>https://travis-ci.org/tmoreira2020/${project.artifactId}</url>
+	</ciManagement>
 
 	<properties>
 		<aspectj.version>1.8.6</aspectj.version>
