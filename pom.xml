@@ -68,6 +68,10 @@
 		<url>https://github.com/tmoreira2020/${project.artifactId}</url>
 		<tag>HEAD</tag>
 	</scm>
+	<issueManagement>
+		<system>Github</system>
+		<url>https://github.com/tmoreira2020/${project.artifactId}/issues</url>
+	</issueManagement>
 
 	<properties>
 		<aspectj.version>1.8.6</aspectj.version>
