@@ -31,7 +31,7 @@
 	<packaging>pom</packaging>
 
 	<name>Thiago Moreira Parent POM</name>
-	<url>https://www.thiagomoreira.com.br/projects/parent</url>
+	<url>https://www.thiagomoreira.com.br/projects/${project.artifactId}</url>
 	<inceptionYear>2014</inceptionYear>
 	<organization>
 		<url>https://www.thiagomoreira.com.br</url>
@@ -63,9 +63,9 @@
 	</prerequisites>
 
 	<scm>
-		<connection>scm:git:git@github.com:tmoreira2020/parent.git</connection>
-		<developerConnection>scm:git:git@github.com:tmoreira2020/parent.git</developerConnection>
-		<url>https://github.com/tmoreira2020/parent</url>
+		<connection>scm:git:git@github.com:tmoreira2020/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:git@github.com:tmoreira2020/${project.artifactId}.git</developerConnection>
+		<url>https://github.com/tmoreira2020/${project.artifactId}</url>
 		<tag>HEAD</tag>
 	</scm>
 
