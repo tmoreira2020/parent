@@ -31,6 +31,7 @@
 	<packaging>pom</packaging>
 
 	<name>Thiago Moreira Parent POM</name>
+	<description>Parent project for all other Maven projects.</description>
 	<url>https://www.thiagomoreira.com.br/projects/${project.artifactId}</url>
 	<inceptionYear>2014</inceptionYear>
 	<organization>
