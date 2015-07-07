@@ -32,7 +32,7 @@
 
 	<name>Thiago Moreira Parent POM</name>
 	<description>Parent project for all other Maven projects.</description>
-	<url>https://www.thiagomoreira.com.br/projects/${project.artifactId}</url>
+	<url>https://www.thiagomoreira.com.br/projects/parent</url>
 	<inceptionYear>2014</inceptionYear>
 	<organization>
 		<url>https://www.thiagomoreira.com.br</url>
@@ -64,18 +64,18 @@
 	</prerequisites>
 
 	<scm>
-		<connection>scm:git:git@github.com:tmoreira2020/${project.artifactId}.git</connection>
-		<developerConnection>scm:git:git@github.com:tmoreira2020/${project.artifactId}.git</developerConnection>
-		<url>https://github.com/tmoreira2020/${project.artifactId}</url>
+		<connection>scm:git:git@github.com:tmoreira2020/parent.git</connection>
+		<developerConnection>scm:git:git@github.com:tmoreira2020/parent.git</developerConnection>
+		<url>https://github.com/tmoreira2020/parent</url>
 		<tag>HEAD</tag>
 	</scm>
 	<issueManagement>
 		<system>Github</system>
-		<url>https://github.com/tmoreira2020/${project.artifactId}/issues</url>
+		<url>https://github.com/tmoreira2020/parent/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>Travis</system>
-		<url>https://travis-ci.org/tmoreira2020/${project.artifactId}</url>
+		<url>https://travis-ci.org/tmoreira2020/parent</url>
 	</ciManagement>
 
 	<properties>
