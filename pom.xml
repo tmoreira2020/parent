@@ -27,7 +27,7 @@
 
 	<groupId>br.com.thiagomoreira</groupId>
 	<artifactId>parent</artifactId>
-	<version>1-SNAPSHOT</version>
+	<version>1</version>
 	<packaging>pom</packaging>
 
 	<name>Thiago Moreira Parent POM</name>
