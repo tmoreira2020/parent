@@ -138,6 +138,31 @@
 		<pluginManagement>
 			<plugins>
 				<plugin>
+					<groupId>com.github.ekryd.sortpom</groupId>
+					<artifactId>sortpom-maven-plugin</artifactId>
+					<version>2.5.0</version>
+					<configuration>
+						<predefinedSortOrder>recommended_2008_06</predefinedSortOrder>
+						<lineSeparator>\n</lineSeparator>
+						<encoding>${project.build.sourceEncoding}</encoding>
+						<sortProperties>true</sortProperties>
+						<keepBlankLines>true</keepBlankLines>
+						<sortDependencies>scope,groupId</sortDependencies>
+						<sortPlugins>groupId,artifactId</sortPlugins>
+						<createBackupFile>false</createBackupFile>
+						<nrOfIndentSpace>-1</nrOfIndentSpace>
+						<verifyFail>Stop</verifyFail>
+					</configuration>
+					<executions>
+						<execution>
+							<goals>
+								<goal>verify</goal>
+							</goals>
+							<phase>verify</phase>
+						</execution>
+					</executions>
+				</plugin>
+				<plugin>
 					<groupId>com.liferay.maven.plugins</groupId>
 					<artifactId>liferay-maven-plugin</artifactId>
 					<version>6.2.2</version>
@@ -359,11 +384,6 @@
 				</plugin>
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>tidy-maven-plugin</artifactId>
-					<version>1.0-beta-1</version>
-				</plugin>
-				<plugin>
-					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>wagon-maven-plugin</artifactId>
 					<version>1.0</version>
 				</plugin>
@@ -397,8 +417,8 @@
 		</pluginManagement>
 		<plugins>
 			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>tidy-maven-plugin</artifactId>
+				<groupId>com.github.ekryd.sortpom</groupId>
+				<artifactId>sortpom-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
